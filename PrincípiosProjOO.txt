@@ -1,0 +1,13 @@
+responsabilidade única: o código respeita este princípio pois cada classe exerce apenas as funções relacionadas a própria classe
+
+segregação de interfaces: as classes não são explicitamente definidas, mas elas fornecem métodos relevantes para suas responsabilidades específicas, logo, não viola este princpipio
+
+inversão de dependências: as classes apenas dependem de interfaces ao invés de implementações concretas, permitindo maior flexibilidade e facilidade de substituição de implementações
+
+prefira composição a herança: as classes usam apenas composições, sem heranças
+
+princípio de Demeter: as classes não interagem indiretamente com outras
+
+aberto/fechado: não há exemplos dde extensão de código sem modificação no código, logo não viola este princípio
+
+substituição de liskov: não há herança direta, logo o código pode ser modificado sem afetar a funcionalidade do sistema 
